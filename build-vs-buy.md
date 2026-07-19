@@ -8,26 +8,25 @@ A leader's decision framework for what an agent function builds itself, what it 
 
 Don't start from "can we build it?" — you can build almost anything, which makes it the wrong question. Start from **what kind of workflow is this?**, on two axes:
 
-- **Judgment density** — how much of the value is encoded human judgment vs. mechanical execution?
+- **Judgment density** — how much of the workflow's value depends on contextual choices, tradeoffs, and learned judgment rather than repeatable execution?
 - **Decay rate** — how fast does this workflow go stale as the domain, models, and providers move?
 
 Those two axes give you three decisions.
 
 ```
-            high judgment density
-                     │
-        HOLD CLOSE   │   BUILD & MAINTAIN
-     (fast-decaying, │   (slow-decaying,
-      high-judgment: │    high-judgment:
-      the real moat) │    worth the upkeep)
-   ──────────────────┼────────────────────  →  decay rate
-                     │
-          BUY        │      BUY / THIN-WRAP
-     (commodity,     │   (commodity, stable:
-      fast-decaying: │    someone else's
-      rent it)       │    core competency)
-                     │
-            low judgment density
+                     high judgment density
+                              │
+        BUILD & MAINTAIN      │       HOLD CLOSE
+        slow-decaying,        │       fast-decaying,
+        high-judgment:        │       high-judgment:
+        worth the upkeep      │       the real moat
+   ───────────────────────────┼───────────────────────→  decay rate
+                              │
+        BUY / THIN-WRAP       │       BUY
+        stable commodity:     │       fast-moving commodity:
+        someone else's core   │       rent it
+                              │
+                     low judgment density
 ```
 
 ---
@@ -35,6 +34,8 @@ Those two axes give you three decisions.
 ## The three decisions
 
 **HOLD CLOSE — high judgment, fast-decaying.** This is the actual advantage: workflows that encode hard-won judgment and go stale fast enough that a competitor can't just copy last year's version. The value isn't the artifact — it's the **capability that keeps regenerating it.** You build these, you keep them private, and you invest in the people who hold the judgment behind them, because that judgment is the appreciating asset and the artifact is the depreciating one. **Most of a function's leverage lives in this quadrant, and most of the mistakes come from treating it like the others** — publishing it, outsourcing it, or letting the person who holds it walk.
+
+**Holding close is about control, not construction.** It does not mean building every component yourself, standardizing nothing, refusing vendors, keeping it secret at all costs, or trapping it in one person's head. It means retaining control of the **judgment, the feedback loops, and the ability to regenerate the workflow** — while the replaceable parts underneath can be bought, documented, and standardized freely. (The provider-portability case below is exactly this move.)
 
 **BUILD & MAINTAIN — high judgment, slow-decaying.** Worth building and worth the ongoing upkeep, because the judgment is real and the workflow is stable enough that maintenance pays off. The standards, the playbooks, the durable internal tooling live here.
 
