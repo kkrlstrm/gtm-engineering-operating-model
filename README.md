@@ -4,7 +4,7 @@
 
 Most writing about AI agents is about the agents. This is about the **people who run them** — how you structure the team, where the leader stands, who owns an outcome no human directly produced, and how judgment survives when the machine does the reps.
 
-It's written from a GTM engineering function that runs autonomous agents against real revenue across 34 client companies (September 2026). GTM is where this model was forged, but almost none of it is GTM-specific: it applies to any function where a small number of humans now direct a large amount of agent-executed work.
+It's written from a GTM engineering function that runs autonomous agents against real revenue across 38 current client companies (September 2026). GTM is where this model was forged, but almost none of it is GTM-specific: it applies to any function where a small number of humans now direct a large amount of agent-executed work.
 
 This repository is the **operating model, not the architecture.** The systems the team runs are documented, at the contract level, in [internal-gtm-platform](https://github.com/kkrlstrm/internal-gtm-platform); the implementations stay private. What's here is the human layer around those systems — the part you can't buy, copy, or prompt your way into.
 
